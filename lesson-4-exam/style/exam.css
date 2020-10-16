@@ -1,0 +1,78 @@
+.body{
+   width: 1600px;
+}
+
+.page{
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.circle{
+    position: absolute;
+    z-index: 5;
+    background-color: red;
+}
+.circle-top-left{
+    top: 10%;
+    right: 58%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.circle-top-left:hover{
+    background-color: violet;
+}
+.circle-top-right{
+    top: 10%;
+    right: 35%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.circle-top-right:hover{
+    background-color:yellowgreen;
+}
+
+.circle-bottom-right{
+    top: 55%;
+    right: 35%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.circle-bottom-right:hover{
+    background-color: tomato;
+}
+.circle-bottom-left{
+    top: 55%;
+    right: 58%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.circle-bottom-left:hover{
+    background-color:purple;
+}
+.box-bigger{
+    position: absolute;
+    z-index: 10;
+    background-color: blue;
+    right: 40%;
+    top: 20%;
+    width: 350px;
+    height: 350px;
+}
+.box-bigger:hover{
+    background-color: royalblue;
+    z-index: 20;
+}
+.box-smaller{
+    background-color: orangered;
+    position: absolute;
+    z-index: 15;
+    right: 47%;
+    top: 34%;
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+}
